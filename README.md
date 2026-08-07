@@ -1,5 +1,22 @@
 # Cools Thermally Active Photonic Substrate
 
+## Strategic relevance to Broadcom CPO and dense TOPS
+
+**Dense TOPS arrays contain a structural contradiction: the phase shifter needs thermal isolation while heating, but strong thermal conduction while resetting.**
+
+Cools resolves this at the architecture level:
+
+- the low-conductivity path dominates during heating and phase holding;
+- the high-conductivity path dominates during cooling, reset and idle;
+- power efficiency and response speed are no longer forced into one fixed-path compromise;
+- denser arrays can reduce thermal crosstalk and control overhead; and
+- a CPO platform owner can capture the value through lower power, faster reconfiguration and higher optical-engine density.
+
+Broadcom has the optical-engine and system-architecture depth to assess this directly from the patent map and implementation structure.
+
+**Paired assembly architecture:** [Photonic Thermal Clutch for zero-thermal-budget EIC–PIC bonding](https://github.com/jhcho9494/Cools_CPO_Zero_Thermal_Budget_Bonding)
+
+
 [한국어](README_KR.md) | [中文](README_ZH.md) | [Patent Architecture](PATENT_PORTFOLIO.md) | [Public Notice](PUBLIC_NOTICE.md)
 
 ## The buried insulator is no longer only an optical cladding.
